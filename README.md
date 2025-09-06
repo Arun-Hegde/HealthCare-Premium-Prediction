@@ -29,65 +29,40 @@ This ensures **personalized and accurate premium predictions**.
 
 ## 📂 Project Structure
 
+```
 HealthCare-Premium-Prediction/
-
 │
 ├── app/ # Streamlit application 
-
 │ ├── main.py # Web app entry point 
-
 │ └── prediction_helper.py # Prediction logic & helpers 
-
 │
 ├── artifacts/ # Pre-trained models & scalers 
-
 │ ├── model_rest.joblib 
-
 │ ├── model_young.joblib 
-
 │ ├── scaler_rest.joblib 
-
 │ └── scaler_young.joblib 
-
 │
-
 ├── Model_training_and_all_resources/ # Data & training notebooks 
-
 │ ├── Data_segmentation.ipynb 
-
 │ ├── ml_premium_prediction.ipynb 
-
 │ ├── ml_premium_prediction_rest.ipynb 
-
 │ ├── ml_premium_prediction_rest_with_gr.ipynb 
-
 │ ├── ml_premium_prediction_young.ipynb 
-
 │ ├── ml_premium_prediction_young_with_gr.ipynb 
-
 │ ├── premiums.xlsx 
-
 │ ├── premiums_rest.xlsx 
-
 │ ├── premiums_young.xlsx 
-
 │ ├── premiums_rest_with_gr.xlsx 
-
 │ └── premiums_young_with_gr.xlsx 
-
 │
-
 ├── .gitignore 
-
 ├── LICENSE # Apache-2.0 license
-
 ├── README.md # Documentation 
-
 └── requirements.txt # Python dependencies 
 
 yaml 
 Copy code 
-
+```
 ---
 
 ## ⚙️ Installation & Usage

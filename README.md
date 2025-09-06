@@ -102,3 +102,14 @@ Your default browser will open the Health Insurance Cost Predictor app.
 - Data Processing: Pandas, NumPy
 
 - Model Serialization: Joblib
+---
+
+## 🙋‍♂️ Author
+
+Developed by **Arun Hegde**  
+📎 [GitHub Profile](https://github.com/Arun-Hegde)
+- Website URL - (https://healthcare-premium-arun-hegde.streamlit.app/)
+
+Feel free to ⭐ the repo or connect on GitHub!
+
+---

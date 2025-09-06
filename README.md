@@ -60,8 +60,6 @@ HealthCare-Premium-Prediction/
 ├── README.md # Documentation 
 └── requirements.txt # Python dependencies 
 
-yaml 
-Copy code 
 ```
 ---
 

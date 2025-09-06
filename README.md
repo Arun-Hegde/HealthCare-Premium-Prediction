@@ -30,6 +30,7 @@ This ensures **personalized and accurate premium predictions**.
 ## 📂 Project Structure
 
 HealthCare-Premium-Prediction/
+
 │
 ├── app/ # Streamlit application 
 │ ├── main.py # Web app entry point 

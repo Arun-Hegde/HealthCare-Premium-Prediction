@@ -1,14 +1,29 @@
 # 🏥 HealthCare-Premium-Prediction
 
 An **Insurance Premium Cost Predictor** built with **Streamlit** and **Machine Learning**.  
-The app estimates insurance premiums based on demographics, lifestyle choices, BMI, smoking habits, income, genetic risk, and medical history using pre-trained ML models.
+This project estimates health insurance premiums by analyzing multiple factors such as demographics, lifestyle choices, BMI, smoking habits, income, genetic risk, and medical history.  
+
+---
+
+## 📖 Table of Contents
+- [Overview](#-overview)
+- [Project Structure](#-project-structure)
+- [Installation & Usage](#️-installation--usage)
+- [Technologies Used](#-technologies-used)
+- [Future Enhancements](#-future-enhancements)
+- [License](#-license)
 
 ---
 
 ## 🚀 Overview
+The application combines a **Streamlit frontend** with a **scikit-learn + XGBoost backend** to predict healthcare premiums.  
+The ML pipeline includes:
+- Data preprocessing & segmentation  
+- Feature scaling  
+- Risk scoring  
+- Separate models for different demographic groups  
 
-This project combines a **Streamlit frontend** with a **scikit-learn + XGBoost backend** to predict healthcare premiums.  
-The pipeline includes preprocessing, scaling, and risk scoring to ensure accurate predictions for different demographic groups.
+This ensures **personalized and accurate premium predictions**.
 
 ---
 
@@ -18,7 +33,7 @@ HealthCare-Premium-Prediction/
 │
 ├── app/ # Streamlit application
 │ ├── main.py # Web app entry point
-│ └── prediction_helper.py # Helper functions for predictions
+│ └── prediction_helper.py # Prediction logic & helpers
 │
 ├── artifacts/ # Pre-trained models & scalers
 │ ├── model_rest.joblib
@@ -41,7 +56,7 @@ HealthCare-Premium-Prediction/
 │
 ├── .gitignore
 ├── LICENSE # Apache-2.0 license
-├── README.md # Project documentation
+├── README.md # Documentation
 └── requirements.txt # Python dependencies
 
 yaml
@@ -52,41 +67,39 @@ Copy code
 ## ⚙️ Installation & Usage
 
 ### 1. Prerequisites
-- Python **3.x**
-- Recommended: Create a virtual environment
+- Python **3.x**  
+- Recommended: Create and activate a virtual environment  
 
-### 2. Setup
+### 2. Clone Repository
 ```bash
 git clone https://github.com/Arun-Hegde/HealthCare-Premium-Prediction.git
 cd HealthCare-Premium-Prediction
-pip install -r requirements.txt
-Key libraries:
-joblib, pandas, numpy, streamlit, scikit-learn, xgboost
+```
 
-3. Run the Application
+### 3. Install Dependencies
+
+```bash
+Copy code
+pip install -r requirements.txt
+Core libraries:
+joblib, pandas, numpy, streamlit, scikit-learn, xgboost
+```
+
+### 4. Run the Application
+```
 bash
 Copy code
 cd app
 streamlit run main.py
-Your browser will open with the Health Insurance Cost Predictor.
+Your default browser will open the Health Insurance Cost Predictor app.
+```
 
-🛠️ Technologies Used
-Frontend: Streamlit
+### 🛠️ Technologies Used
 
-Backend: Python, scikit-learn, XGBoost
+- Frontend: Streamlit
 
-Data Processing: Pandas, NumPy
+- Backend: Python, scikit-learn, XGBoost
 
-Model Serialization: Joblib
+- Data Processing: Pandas, NumPy
 
-🌟 Future Enhancements
-🔹 Add more features for robust predictions
-
-🔹 User authentication system
-
-🔹 Detailed breakdown of premium calculation
-
-🔹 Cloud deployment (AWS, Azure, GCP)
-
-📜 License
-This project is licensed under the Apache 2.0 License
+- Model Serialization: Joblib

@@ -10,7 +10,6 @@ This project estimates health insurance premiums by analyzing multiple factors s
 - [Project Structure](#-project-structure)
 - [Installation & Usage](#️-installation--usage)
 - [Technologies Used](#-technologies-used)
-- [Future Enhancements](#-future-enhancements)
 - [License](#-license)
 
 ---
